@@ -1,0 +1,15 @@
+if 有毛发 then 哺乳动物
+if 有奶 then 哺乳动物
+if 有羽毛 then 鸟
+if 会飞 and 会生蛋 then 鸟
+if 吃肉 then 食肉动物
+if 有锋利牙齿 and 有爪 and 眼向前方 then 食肉动物
+if 哺乳动物 and 有蹄 then 有蹄动物
+if 哺乳动物 and 反刍 then 有蹄动物
+if 哺乳动物 and 食肉动物 and 有黄褐色皮毛 and 有暗斑点 then 豹
+if 哺乳动物 and 食肉动物 and 有黄褐色皮毛 and 有黑色条纹 then 虎
+if 有蹄动物 and 有长脖子 and 有长腿 and 有暗斑点 then 长颈鹿
+if 有蹄动物 and 有黑色条纹 then 斑马
+if 鸟 and 不会飞 and 有长脖子 and 有长腿 and 有黑白二色 then 鸵鸟
+if 鸟 and 不会飞 and 会游泳 and 有黑白二色 then 企鹅
+if 鸟 and 会飞 then 信天翁
