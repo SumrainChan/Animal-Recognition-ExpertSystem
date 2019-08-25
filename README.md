@@ -25,37 +25,39 @@
 
 * AnimalJudgeSystem.java	动物识别专家系统	AnimalJudgeSystem类	方法：
 
-void loadRuleBase(String pathname) -- 加载规则库
+>> void loadRuleBase(String pathname) -- 加载规则库
 
-void recognizeAnimal(String pathname, String method) -- 识别动物
+>> void recognizeAnimal(String pathname, String method) -- 识别动物
 
 String reasonMachine() -- 启动推理机
 
-void displayRules() -- 显示规则库所有规则
+>> void displayRules() -- 显示规则库所有规则
 
-void deleleRule() -- 删除单条规则
+>> void deleleRule() -- 删除单条规则
 
-void insertRule() -- 插入单条规则
+>> void insertRule() -- 插入单条规则
 
 * RuleBase.java	规则库	RuleBase类	方法：
 
-void insert() -- 插入单条规则
+>> void insertRule() -- 插入单条规则
 
-load(String pathname) -- 加载规则库
+>> void insert() -- 插入单条规则
 
-void delete() -- 删除单条规则
+>> load(String pathname) -- 加载规则库
 
-void display() -- 显示所有规则
+>> void delete() -- 删除单条规则
+
+>> void display() -- 显示所有规则
 
 * Rule.java	单条规则记录	Rule类	方法：
 
-void addCondition(String condition) -- 添加前提条件
+>> void addCondition(String condition) -- 添加前提条件
 
-void setConclusion(String conclusion) -- 设定结论
+>> void setConclusion(String conclusion) -- 设定结论
 
-ArrayList<String> getCondition() -- 获得条件集
+>> ArrayList<String> getCondition() -- 获得条件集
 
-String getConclusion() -- 获得结论
+>> String getConclusion() -- 获得结论
 
 Rules.txt	保存规则的文本
 
